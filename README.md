@@ -8,4 +8,4 @@ For any assistance feel free to contact me
 Email: kaustavpal1612@gmail.com
 X: https://x.com/KaustavPal1612
 Bluesky: https://bsky.app/profile/kaustavpal1612.bsky.social
-LinkedIn: https://www.linkedin.com/in/kaustav-pal-b524a5223/
+LinkedIn: [https://www.linkedin.com/in/kaustav-pal-b524a5223/](https://www.linkedin.com/in/kaustavpal1612/)
