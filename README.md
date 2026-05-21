@@ -29,7 +29,7 @@ Do provide the line-scan range based on the size of the object of interest, as w
 
 However, this code can be tweaked to use custom detection based on your method, find binary_image_stack replace that with the binary_stack of the custom detection, then the program analyzes trajectories based on that detection. 
 
-Moreover it provides the diffusion charactersistics of mobile objects, for that run Traj_Analysis.m, collate the trajectories in a single mat file to get statistics for that run Collate_Traj.m
+Moreover it provides the diffusion charactersistics of mobile objects, for that run Traj_Analysis.m, collate the trajectories in a single mat file to get statistics for that run Collate_Traj.m, we look at the rolling time window to characterise diffusivity, also we look at the z direction diffusivity through intensity fluctuations.
 
 Folder 5: Tracking Particle Spin Disk 
 This MATAB is also similiar to particle or object tracking however it was custom written for larger objects with faster rates of movements, done for a collaborative work for Morphogenesis Lab.
