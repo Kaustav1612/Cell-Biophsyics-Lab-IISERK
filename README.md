@@ -25,9 +25,11 @@ Run the main.m file in MATLAB adjust the detection by altering the sensitivity o
 
 Folder 4: TIRF Movie
 This is a MATLAB program to detect and track objects in high resolution movies, these program provides the a framework to classify objects as fixed or mobile. Run the file main.m with the movie path with TIFF image sequence.
-Do provide the line-scan range based on the size of the object of interest, as well the correlation threshold on how focused the objects are. Also another parameter threshold calibration, to account for defocussing issues or bleaching.
+Do provide the line-scan range based on the size of the object of interest, as well the correlation threshold on how focused the objects are. Also another parameter threshold calibration, to account for defocussing issues or bleaching. (Run main.m)
 
-Moreover it provides the diffusion charactersistics of mobile objects, for that runn Traj_Analysis.m
+However, this code can be tweaked to use custom detection based on your method, find binary_image_stack replace that with the binary_stack of the custom detection, then the program analyzes trajectories based on that detection. 
+
+Moreover it provides the diffusion charactersistics of mobile objects, for that run Traj_Analysis.m, collate the trajectories in a single mat file to get statistics for that run Collate_Traj.m
 
 Folder 5: Tracking Particle Spin Disk 
 This MATAB is also similiar to particle or object tracking however it was custom written for larger objects with faster rates of movements, done for a collaborative work for Morphogenesis Lab.
